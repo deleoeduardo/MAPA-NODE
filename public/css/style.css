@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+}
+
+img {
+  height: 10%;
+  width: 100%;
+
+}
+
+.map {
+	height:75%;
+	width:100%;
+}
+
+.latlong {
+  font-family:  arial;
+  font-size: 12px;
+  background-color:  rgb(242,242,242);  
+  text-align: right;
+}
+
+input[type=text] {
+    background-color: rgb(242,242,242);
+    color: black;
+    border: none;
+    padding: 1px 1px;
+    font-family: "arial";
+}
+
+.color-bar {
+    background-color:  rgb(228,228,228);
+    height: 4%;
+    width: 100%;
+    border-bottom: 3px solid rgb(46,46,46);
+    text-align: center;
+}
+
+#clear_shapes,
+#show_zones,
+#save_zones {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 2.5px 2.5px;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.styling {
+    background: rgb(228,228,228);
+    border-radius: 5px;
+  }
+
+#show_zones {
+    background: rgb(23, 141, 219); /* this is a green */
+}
+
+#save_zones {
+    background: rgb(28, 184, 65); 
+}
+
+.footer {
+    font-size: 10px;
+    text-align: center;
+ }
+  
+.powered {
+    font-family: "arial" ;
+    font-size: 12px;
+    text-align: center;
+ }
+
+.EDS {
+    width: 30px;
+    height: 30px;
+ }
+
+  
+  

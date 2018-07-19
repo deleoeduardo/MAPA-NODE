@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+      <title> DARWIN V20 </title>
+      <meta charset="utf-8">
+
+      <link rel = "stylesheet" href = "/public/css/spectrum.css" />
+      <link rel = "stylesheet" href = "/public/css/style.css" />
+  </head>
+
+  <body>
+    <div class = "BANNER">
+      <img src = "/public/img/banner.png" id = "BANNER" alt = "">
+    </div>
+
+    <div class = "map" id = "map_in"></div>
+
+    <div class="latlong">
+      Latitud
+      <input type="text" id="latitude"> Longitud
+      <input type="text" id="longitude">
+    </div>
+
+    <div class="color-bar">
+      <input type='text' id="custom" />
+      <input id = "show_zones" class = "pure-button pure-button-primary" value = "Mostrar Zonas" type = "button">
+      <input id = "save_zones" class = "pure-button pure-button-primary" value = "Guardar Zonas" type = "button">
+    </div>
+
+    <p></p>
+    <footer>
+      <div class = "powered">Powered By
+        <img class = "EDS" src = "/public/img/eds.png" alt="">
+      </div>
+      <div class = "footer">
+        Copyright © 2018 Endurance Drilling System. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5pWWHC9D0JfmhInL1JAiTtbVAI8YmK2E&libraries=drawing,geometry&.js"></script>
+    <script src = "//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type = "text/javascript" src = "/public/js/script.js"></script>
+    <script type = "text/javascript" src = "/public/js/map.js"></script>        
+    <script type = "text/javascript" src = "/public/js/functions.js"></script>        
+    <script type = "text/javascript" src = "/public/js/spectrum.js"></script>
+  </body>
+
+</html>

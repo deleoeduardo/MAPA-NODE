@@ -1,0 +1,20 @@
+{
+  "name": "menu",
+  "version": "1.0.0",
+  "description": " electron-hello-world ",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=win32 --arch=ia32  --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"CryptoApp\""
+  },
+  "author": "your name",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.4.14",
+    "express": "^4.16.3",
+    "mssql": "^4.1.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^12.1.0"
+  }
+}
